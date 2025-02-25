@@ -1,4 +1,4 @@
-package com.totoro.orm;
+package com.totoro.hibernate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,6 +8,7 @@ class ApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("zzz");
     }
 
 }

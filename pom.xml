@@ -10,10 +10,19 @@
     <packaging>pom</packaging>
     <modules>
         <module>01_ORM</module>
+        <module>02_Hibernate</module>
+        <module>03_mybatisSourceCode</module>
     </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+        </dependency>
+    </dependencies>
 
 </project>
